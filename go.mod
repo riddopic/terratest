@@ -1,6 +1,6 @@
 module github.com/gruntwork-io/terratest
 
-go 1.17
+go 1.23.0
 
 require (
 	cloud.google.com/go v0.83.0
@@ -40,7 +40,7 @@ require (
 	github.com/zclconf/go-cty v1.9.1
 	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a
 	golang.org/x/net v0.0.0-20210614182718-04defd469f4e
-	golang.org/x/oauth2 v0.0.0-20210514164344-f6687ab2804c
+	golang.org/x/oauth2 v0.27.0
 	google.golang.org/api v0.47.0
 	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c
 	k8s.io/api v0.20.6
@@ -77,7 +77,7 @@ require (
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/golang/snappy v0.0.3 // indirect
-	github.com/google/go-cmp v0.5.7 // indirect
+	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
 	github.com/googleapis/gax-go/v2 v2.0.5 // indirect
 	github.com/googleapis/gnostic v0.4.1 // indirect
